@@ -34,13 +34,11 @@ public class LoginFilter extends UsernamePasswordAuthenticationFilter {
     protected void successfulAuthentication(HttpServletRequest request,
                                             HttpServletResponse response, FilterChain chain, Authentication authResult)
             throws IOException, ServletException {
-        super.successfulAuthentication(request, response, chain, authResult);
     }
 
     @Override
     protected void unsuccessfulAuthentication(HttpServletRequest request,
                                               HttpServletResponse response, AuthenticationException failed)
             throws IOException, ServletException {
-        super.unsuccessfulAuthentication(request, response, failed);
     }
 }
