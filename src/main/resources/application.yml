@@ -1,4 +1,7 @@
 spring:
+  jwt:
+    secret: dsfjlkfsdlkfjlsdakfjlsakfjlssdfsfsafasdfasfsdfwethjgfjuhgkbvvcxvsdtwtewrtewjlsakfjlsafd
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?serverTimeZone=UTC&useUnicode=true&characterEncoding=UTF-8
