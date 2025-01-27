@@ -1,13 +1,15 @@
 package com.Spring.Security.Controller;
 
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class IndexController {
+@ResponseBody
+public class MainController {
 
     @GetMapping("/")
-    public String index() {
-        return "index";
+    public String admin() {
+        return "Main";
     }
 }
